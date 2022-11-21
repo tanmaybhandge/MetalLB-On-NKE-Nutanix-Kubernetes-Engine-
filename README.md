@@ -14,7 +14,7 @@ Above manifest file will deploy the metallb-system namespace to kubernetes clust
 -	Daemonset -  metallb-system/speaker 
 -	Service accounts with the RBAC permissions that the components need to function.
 
-B.	If you need to assign the IP address, you may apply using. You may need to assign the same range as your worker nodes frontend network.
+B.	If you need to assign the IP address, you may apply using below mentioned yaml code. Please note that you may need to assign the same range as your worker nodes frontend network.
 
     apiVersion: metallb.io/v1beta1
     kind: IPAddressPool
