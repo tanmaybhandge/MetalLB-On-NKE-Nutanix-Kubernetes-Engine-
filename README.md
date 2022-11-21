@@ -25,4 +25,3 @@ B.	If you need to assign the IP address, you may apply using. You may need to as
     addresses:
     - 192.168.10.0/24
     - 192.168.9.1-192.168.9.5
-    - fc00:f853:0ccd:e799::/124
